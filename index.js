@@ -8,7 +8,7 @@ module.exports = function transformHtmlTags() {
 
             this.node.tag && this.after(function() {
                 var entity,
-                    htmlTagModule = path.join('.', 'lib', this.node.tag + '.js');
+                    htmlTagModule = path.join(__dirname, 'lib', this.node.tag + '.js');
 
                 // FIXME: do it async
                 if(fs.existsSync(htmlTagModule)) {
