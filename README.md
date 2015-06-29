@@ -14,10 +14,8 @@ posthtml([ require('posthtml-to-svg-tags')])
     .then(function(result) {
         console.log(result);
     });
-```
-
-``` bash
-> <g id="wow">OMG</g>
+    
+// <g id="wow">OMG</g>    
 ```
 
 
