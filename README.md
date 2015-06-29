@@ -1,6 +1,6 @@
 # posthtml-to-svg-tags
 
-PostHTMLToSvgTags is plugin for [PostHTML](https://github.com/posthtml/posthtml). It convert all HTML tags to SVG eqauls and maybe with new structure.
+PostHTMLToSvgTags is plugin for [PostHTML](https://github.com/posthtml/posthtml). It convert all HTML tags to SVG equals and maybe with new structure.
 
 ## Usage
 
