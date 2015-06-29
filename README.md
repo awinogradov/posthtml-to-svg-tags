@@ -9,7 +9,7 @@ var posthtml = require('posthtml');
     
 var html = '<div class="wow">OMG</div>';    
 
-posthtml([ require('posthtml-to-svg-tags')])
+posthtml([ require('posthtml-to-svg-tags')()])
     .process(html)
     .then(function(result) {
         console.log(result);
