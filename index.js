@@ -23,5 +23,5 @@ module.exports = function transformHtmlTags() {
         });
 
         return tree;
-    }
-}
+    };
+};
